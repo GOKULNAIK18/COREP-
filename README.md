@@ -52,4 +52,42 @@ This directly matches the success criteria defined in the problem statement.
 
 ---
 
+## How to Run the Project (macOS)
+
+### Prerequisites
+- macOS
+- Python 3.9 or later
+- Git
+
+---
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+Step 2: Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+Step 3: Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+Step 4: (Optional) Set OpenAI API key
+export OPENAI_API_KEY="your-openai-api-key"
+If no API key is provided or API quota is unavailable, the system automatically runs in demo mode using deterministic mock LLM output.
+
+Step 5: Run the application
+python main.py
+Step 6: Expected Output
+COREP C 01.00 – Own Funds (tabular extract)
+
+COREP C 02.00 – Capital Requirements (tabular extract)
+
+Validation checks (if applicable)
+
+Audit log mapping COREP rows to PRA Rulebook and COREP instruction references
+
+Step 7: Deactivate the virtual environment (optional)
+deactivate
+
+---
 
