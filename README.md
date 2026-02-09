@@ -91,3 +91,32 @@ deactivate
 
 ---
 
+## Sample Output
+
+Below is an example of the output produced when running the prototype.
+
+### COREP C 01.00 – Own Funds
+
+COREP C 01.00 – Own Funds
+Row Description Amount
+010 Share capital 100
+020 Retained earnings 40
+060 Intangible assets (deduction) -10
+
+TOTAL: 130
+
+
+### Audit Log (Rule Traceability)Row 010: Share capital
+Rule Source: PRA Rulebook Art. 26; COREP C01 Row 010
+
+Row 020: Retained earnings
+Rule Source: PRA Rulebook Art. 26; COREP C01 Row 020
+
+Row 060: Intangible assets (deduction)
+Rule Source: PRA Rulebook Art. 36; COREP C01 Row 060
+
+
+The prototype also generates a similar COREP-style extract and audit log for **COREP C 02.00 – Capital Requirements**.
+
+
+
